@@ -1,0 +1,19 @@
+{
+	"Name": "BungeeCord",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+	"NumberFile": "./ArtifactUpdater/BuildNumbers/BungeeCord.txt",
+	"TempFolder": "./ArtifactUpdater/TempFolder",
+	"Jenkins": {
+		"BuildNumber": "https://ci.md-5.net/job/BungeeCord/lastStableBuild/buildNumber",
+		"Artifact": "https://ci.md-5.net/job/BungeeCord/lastStableBuild/artifact/*zip*/archive.zip"
+	},
+	"Save": {
+		"Folder": "./",
+		"ArtifactPath": "archive/bootstrap/target/",
+		"SaveTarget": "BungeeCord.jar"
+	},
+	"Move": {
+		"Path": "./BungeeCord.jar",
+		"Target": "./ArtifactUpdater/BungeeCord/OldJars/"
+	}
+}

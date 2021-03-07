@@ -1,0 +1,19 @@
+{
+	"Name": "ViaRewind",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+	"NumberFile": "./ArtifactUpdater/BuildNumbers/ViaRewind.txt",
+	"TempFolder": "./ArtifactUpdater/TempFolder",
+	"Jenkins": {
+		"BuildNumber": "https://ci.viaversion.com/job/ViaRewind/lastStableBuild/buildNumber",
+		"Artifact": "https://ci.viaversion.com/job/ViaRewind/lastStableBuild/artifact/*zip*/archive.zip"
+	},
+	"Save": {
+		"Folder": "./plugins/",
+		"ArtifactPath": "archive/jar/target/",
+		"SaveTarget": "ViaRewind-*.jar"
+	},
+	"Move": {
+		"Path": "./plugins/ViaRewind-*.jar",
+		"Target": "./AtrifactUpdater/ViaRewind/OldJars/"
+	}
+}
