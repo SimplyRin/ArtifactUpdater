@@ -14,6 +14,6 @@
 	},
 	"Move": {
 		"Path": "./plugins/ViaRewind-*.jar",
-		"Target": "./AtrifactUpdater/ViaRewind/OldJars/"
+		"Target": "./ArtifactUpdater/ViaRewind/OldJars/"
 	}
 }

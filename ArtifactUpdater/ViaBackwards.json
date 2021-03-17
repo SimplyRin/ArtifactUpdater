@@ -14,6 +14,6 @@
 	},
 	"Move": {
 		"Path": "./plugins/ViaBackwards-*.jar",
-		"Target": "./AtrifactUpdater/ViaBackwards/OldJars/"
+		"Target": "./ArtifactUpdater/ViaBackwards/OldJars/"
 	}
 }

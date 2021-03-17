@@ -1,0 +1,19 @@
+{
+	"Name": "LuckPerms",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+	"NumberFile": "./ArtifactUpdater/BuildNumbers/LuckPerms.txt",
+	"TempFolder": "./ArtifactUpdater/TempFolder",
+	"Jenkins": {
+		"BuildNumber": "https://ci.lucko.me/job/LuckPerms/lastStableBuild/buildNumber",
+		"Artifact": "https://ci.lucko.me/job/LuckPerms/lastStableBuild/artifact/*zip*/archive.zip"
+	},
+	"Save": {
+		"Folder": "./plugins/",
+		"ArtifactPath": "archive/bungee/loader/build/libs",
+		"SaveTarget": "LuckPerms-Bungee-*.jar"
+	},
+	"Move": {
+		"Path": "./plugins/LuckPerms-*.jar",
+		"Target": "./ArtifactUpdater/LuckPerms/OldJars/"
+	}
+}

@@ -14,6 +14,6 @@
 	},
 	"Move": {
 		"Path": "./plugins/ViaVersion-*.jar",
-		"Target": "./AtrifactUpdater/ViaVersion/OldJars/"
+		"Target": "./ArtifactUpdater/ViaVersion/OldJars/"
 	}
 }
