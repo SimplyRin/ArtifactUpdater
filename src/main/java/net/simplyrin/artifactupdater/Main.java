@@ -32,7 +32,7 @@ import net.simplyrin.rinstream.RinStream;
 public class Main {
 
 	public static void main(String[] args) {
-		new RinStream().enableError();;
+		new RinStream().enableError();
 		new Main().run(args);
 	}
 
